@@ -49,14 +49,7 @@ for i in range(254):
 file1.close()
 
 
-text = np.loadtxt('output.txt',dtype = int)
-text1 = text[1:25]
-def convert(text1):
-	first = bin(text1)
-	padded1 = binary.zfill(8)
-    	return(padded1)
 
-print(padded1)
 
 
 
